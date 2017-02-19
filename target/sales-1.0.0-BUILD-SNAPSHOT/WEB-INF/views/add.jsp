@@ -52,10 +52,16 @@
 				<input type="submit" name="add" value="明細追加" />
 			</div>
 			<%-- 			<c:out value="${errorAdd}" /> --%>
-			
-			<div class="errormessage" ><form:errors path="quantity" /></div>
-			<div class="errormessage"><form:errors path="id" /></div>
-			<div class="normalmessage"><c:out value="${addmessage}" /></div>
+
+			<div class="errormessage">
+				<form:errors path="quantity" />
+			</div>
+			<div class="errormessage">
+				<form:errors path="id" />
+			</div>
+			<div class="normalmessage">
+				<c:out value="${addmessage}" />
+			</div>
 		</div>
 	</form:form>
 	<form:form modelAttribute="salesForm" action="/sales/system">
@@ -88,8 +94,12 @@
 				</div>
 
 				<%-- 				<c:out value="${errorDel}" /> --%>
-				<div class="errormessage" ><form:errors path="idToBeDel" /></div>
-				<div class="normalmessage"><c:out value="${delmessage}" /></div>
+				<div class="errormessage">
+					<form:errors path="idToBeDel" />
+				</div>
+				<div class="normalmessage">
+					<c:out value="${delmessage}" />
+				</div>
 			</div>
 
 		</div>
@@ -104,5 +114,6 @@
 			</div>
 		</div>
 	</form:form>
+
 </body>
 </html>

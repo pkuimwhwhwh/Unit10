@@ -15,7 +15,7 @@
 <body>
 	<form:form modelAttribute="salesForm" action="/sales/system">
 		<div class="header">
-			<span class="titleName">王航オンラインショップ</span>
+			<span class="titleName">王航のオンラインショップ</span>
 			<div class="date">
 				<script>
 					//今日の日付データを変数todayに格納
