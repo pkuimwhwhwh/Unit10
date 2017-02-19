@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+.header {
+width: 500px;
+margin: 0px;
+padding: 5px;
+background-color: #EE82EE;
+}
+
+.date {
+text-align: right;
+font-size: x-large;
+font-weight: bold;
+}
+.errormessage{
+	color:red;
+}
+.normalmessage{
+	color:blue;
+}
+
